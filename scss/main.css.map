@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "_globals.scss",
+        "_resets.scss",
+        "_root.scss",
+        "_header.scss",
+        "_hero.scss",
+        "_items.scss",
+        "components/_button.scss",
+        "components/_input.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

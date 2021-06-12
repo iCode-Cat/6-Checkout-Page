@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>
+                Checkout
+            </h1>
+        </header>
+        <section class="items">
+            <div class="box">
+                <div class="box-left">
+                    <img src="./assets/photo1.png" alt="">
+                </div>
+                <div class="box-right">
+                    <p class="item-name">
+                        Vintage Backbag
+                    </p>
+                    <div class="item-price">
+                        <p class="item-price-now">
+                            $54.99
+                        </p>
+                        <p class="item-price-before">
+                            $94.99
+                        </p>
+                    </div>
+                    <div class="item-increment">
+                        <i class="material-icons">add</i>
+                        <p class="count">1</p>
+                        <i class="material-icons">remove</i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-left">
+                    <img src="./assets/photo2.png" alt="">
+                </div>
+                <div class="box-right">
+                    <p class="item-name">
+                        Vintage Backbag
+                    </p>
+                    <div class="item-price">
+                        <p class="item-price-now">
+                            $54.99
+                        </p>
+                        <p class="item-price-before">
+                            $94.99
+                        </p>
+                    </div>
+                    <div class="item-increment">
+                        <i class="material-icons">add</i>
+                        <p class="count">1</p>
+                        <i class="material-icons">remove</i>
+                    </div>
+                </div>
+            </div>
+            <div class="items-total">
+                <div class="shipping">
+                    <p>Shipping</p>
+                    <p class="price">
+                        $19
+                    </p>
+                </div>
+                <div class="total">
+                    <p>Total</p>
+                    <p class="price">
+                        $19
+                    </p>
+                </div>
+            </div>
+        </section>
+        <form class="hero">
+            <div class="hero-contact">
+                <h1 class="section-name">
+                    Contact information
+                </h1>
+                <div class="label-container">
+                    <label for="email">E-mail</label>
+                <div class="input-container">
+                    <input placeholder="Enter your email..." type="email" class="email">
+                    <i class="material-icons">email</i>
+                </div>
+                </div>
+                <div class="label-container">
+                    <label for="phone">Phone</label>
+                <div class="input-container">
+                    <input placeholder="Enter your phone..." type="tel" class="phone">
+                    <i class="material-icons">phone</i>
+                </div>
+                </div>
+            </div>  
+            <div class="hero-shipping-adress">
+                <h1 class="section-name">
+                    Shipping address
+                </h1>
+                <div class="label-container">
+                    <label for="fullname">Full name</label>
+                <div class="input-container">
+                    <input placeholder="Rodney Cotton" type="fullname" class="fullname">
+                    <i class="material-icons">person</i>
+                </div>
+                </div>
+                <div class="label-container">
+                    <label for="adress">Address</label>
+                <div class="input-container">
+                    <input placeholder="Your address..." type="text" class="adress">
+                    <i class="material-icons">home</i>
+                </div>
+                </div>
+                <div class="label-container">
+                    <label for="city">City</label>
+                <div class="input-container">
+                    <input placeholder="Your city..." type="text" class="city">
+                    <i class="material-icons">location_city</i>
+                </div>
+                <div class="label-container-divide">
+                    <label for="country">Country</label>
+                <div class="input-container">
+                    <input placeholder="Your country..." type="text" class="country">
+                    <i class="material-icons">location_city</i>
+                </div>
+                <label for="post">Postal code</label>
+                <div class="input-container">
+                    <input placeholder="Your postal code..." type="text" class="post">
+                    <i class="material-icons">markunread_mailbox</i>
+                </div>
+                </div>
+                </div>
+            </div>  
+            <div class="form-save">
+                <input type="checkbox">
+                <p>
+                    Save this information for next time
+                </p>
+            </div>
+            <button class="submit-button" type="submit">
+                Continue
+            </button>
+        </form>
+        <footer class="footer">
+            created by username - devChallenges.io
+        </footer>
+    </main>
+</body>
+</html>
