@@ -10,144 +10,186 @@
 </head>
 <body>
     <main class="container">
-        <header>
+        <header class="header">
             <h1>
                 Checkout
             </h1>
         </header>
-        <section class="items">
-            <div class="box">
-                <div class="box-left">
-                    <img src="./assets/photo1.png" alt="">
-                </div>
-                <div class="box-right">
-                    <p class="item-name">
-                        Vintage Backbag
-                    </p>
-                    <div class="item-price">
-                        <p class="item-price-now">
-                            $54.99
-                        </p>
-                        <p class="item-price-before">
-                            $94.99
-                        </p>
+        <div class="hero-wrapper">
+            <section class="items">
+                <div class="box">
+                    <div class="box-left">
+                        <img src="./assets/photo1.png" alt="">
                     </div>
-                    <div class="item-increment">
-                        <i class="material-icons">add</i>
-                        <p class="count">1</p>
-                        <i class="material-icons">remove</i>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-left">
-                    <img src="./assets/photo2.png" alt="">
-                </div>
-                <div class="box-right">
-                    <p class="item-name">
-                        Vintage Backbag
-                    </p>
-                    <div class="item-price">
-                        <p class="item-price-now">
-                            $54.99
+                    <div class="box-right item">
+                        <p class="item-name">
+                            Vintage Backbag
                         </p>
-                        <p class="item-price-before">
-                            $94.99
-                        </p>
-                    </div>
-                    <div class="item-increment">
-                        <i class="material-icons">add</i>
-                        <p class="count">1</p>
-                        <i class="material-icons">remove</i>
+                        <div class="item-price">
+                            <p class="item-price-now">
+                                $54.99
+                            </p>
+                            <p class="item-price-before">
+                                $94.99
+                            </p>
+                        </div>
+                        <div class="item-increment">
+                            <i class="material-icons">add</i>
+                            <p class="count">1</p>
+                            <i class="material-icons">remove</i>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="items-total">
-                <div class="shipping">
-                    <p>Shipping</p>
-                    <p class="price">
-                        $19
+                <div class="box">
+                    <div class="box-left">
+                        <img src="./assets/photo2.png" alt="">
+                    </div>
+                    <div class="box-right item">
+                        <p class="item-name">
+                            Levi Shoes
+                        </p>
+                        <div class="item-price">
+                            <p class="item-price-now">
+                                $74.99
+                            </p>
+                            <p class="item-price-before">
+                                $124.99
+                            </p>
+                        </div>
+                        <div class="item-increment">
+                            <i class="material-icons">add</i>
+                            <p class="count">1</p>
+                            <i class="material-icons">remove</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-total">
+                    <div class="shipping">
+                        <p>Shipping</p>
+                        <p class="price">
+                            $19
+                        </p>
+                    </div>
+                    <div class="total">
+                        <p>Total</p>
+                        <p class="price">
+                            $148.98
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <form class="hero">
+                <div class="hero-contact">
+                    <h1 class="section-name">
+                        Contact information
+                    </h1>
+                    <div class="label-container">
+                        <label for="email">E-mail</label>
+                    <div class="input-container">
+                        <input placeholder="Enter your email..." type="email" class="email" required>
+                        <i class="material-icons">email</i>
+                    </div>
+                    </div>
+                    <div class="label-container">
+                        <label for="phone">Phone</label>
+                    <div class="input-container">
+                        <input placeholder="Enter your phone..." type="tel" class="phone" required>
+                        <i class="material-icons">phone</i>
+                    </div>
+                    </div>
+                </div>  
+                <div class="hero-shipping-adress">
+                    <h1 class="section-name">
+                        Shipping address
+                    </h1>
+                    <div class="label-container">
+                        <label for="fullname">Full name</label>
+                    <div class="input-container">
+                        <input placeholder="Enter your name..." type="fullname" class="fullname" required>
+                        <i class="material-icons">person</i>
+                    </div>
+                    </div>
+                    <div class="label-container">
+                        <label for="adress">Address</label>
+                    <div class="input-container">
+                        <input placeholder="Your address..." type="text" class="adress" required>
+                        <i class="material-icons">home</i>
+                    </div>
+                    </div>
+                    <div class="label-container">
+                        <label for="city">City</label>
+                    <div class="input-container">
+                        <input placeholder="Your city..." type="text" class="city" required>
+                        <i class="material-icons">location_city</i>
+                    </div>
+                    <div class="label-container-divide">
+                        <div class="">
+                            <label for="country">Country</label>
+                    <div class="input-container country-co">
+                        <input placeholder="Your country..." type="text" class="country" required>
+                        <i class="material-icons">location_city</i>
+                        <div class="country-list">
+                            <li>USA</li>
+                            <li>ENGLAND</li>
+                            <li>MARS </li>
+                        </div>
+                    </div>
+                    
+                        </div>
+                        <div class="">
+                            <label for="post">Postal code</label>
+                            <div class="input-container">
+                                <input placeholder="Your postal code..." type="text" class="post" required>
+                                <i class="material-icons">markunread_mailbox</i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+                <div class="form-save">
+                    <input type="checkbox">
+                    <p>
+                        Save this information for next time
                     </p>
                 </div>
-                <div class="total">
-                    <p>Total</p>
-                    <p class="price">
-                        $19
-                    </p>
-                </div>
+                <div  class="submit-button">
+                <button type="submit">
+                    Continue
+                </button>
             </div>
-        </section>
-        <form class="hero">
-            <div class="hero-contact">
-                <h1 class="section-name">
-                    Contact information
-                </h1>
-                <div class="label-container">
-                    <label for="email">E-mail</label>
-                <div class="input-container">
-                    <input placeholder="Enter your email..." type="email" class="email">
-                    <i class="material-icons">email</i>
-                </div>
-                </div>
-                <div class="label-container">
-                    <label for="phone">Phone</label>
-                <div class="input-container">
-                    <input placeholder="Enter your phone..." type="tel" class="phone">
-                    <i class="material-icons">phone</i>
-                </div>
-                </div>
-            </div>  
-            <div class="hero-shipping-adress">
-                <h1 class="section-name">
-                    Shipping address
-                </h1>
-                <div class="label-container">
-                    <label for="fullname">Full name</label>
-                <div class="input-container">
-                    <input placeholder="Rodney Cotton" type="fullname" class="fullname">
-                    <i class="material-icons">person</i>
-                </div>
-                </div>
-                <div class="label-container">
-                    <label for="adress">Address</label>
-                <div class="input-container">
-                    <input placeholder="Your address..." type="text" class="adress">
-                    <i class="material-icons">home</i>
-                </div>
-                </div>
-                <div class="label-container">
-                    <label for="city">City</label>
-                <div class="input-container">
-                    <input placeholder="Your city..." type="text" class="city">
-                    <i class="material-icons">location_city</i>
-                </div>
-                <div class="label-container-divide">
-                    <label for="country">Country</label>
-                <div class="input-container">
-                    <input placeholder="Your country..." type="text" class="country">
-                    <i class="material-icons">location_city</i>
-                </div>
-                <label for="post">Postal code</label>
-                <div class="input-container">
-                    <input placeholder="Your postal code..." type="text" class="post">
-                    <i class="material-icons">markunread_mailbox</i>
-                </div>
-                </div>
-                </div>
-            </div>  
-            <div class="form-save">
-                <input type="checkbox">
-                <p>
-                    Save this information for next time
-                </p>
-            </div>
-            <button class="submit-button" type="submit">
-                Continue
-            </button>
-        </form>
+            </form>
+        </div>
+        
         <footer class="footer">
-            created by username - devChallenges.io
+            created by iCode-Cat - devChallenges.io
         </footer>
     </main>
+
+    <script type="text/javascript">
+    
+    const country = document.querySelector('.country');
+    const countryList = document.querySelector('.country-list');
+    const form = document.querySelector('form');
+    const countryElement = document.querySelectorAll('.country-list > li');
+    
+    // Functions
+    const countryhandler = (e) => {
+        countryList.style.display = 'block';
+        countryElement.forEach((name) => {
+            name.onclick = () => {
+                countryList.style.display = 'none';
+                country.value = name.innerText;
+            }
+        })
+    }
+
+    // Ignite Events
+    country.onclick = countryhandler;
+    form.onsubmit = (e) => {
+        e.preventDefault();
+        alert('SUCCESS');
+    }
+    </script>
+
 </body>
 </html>

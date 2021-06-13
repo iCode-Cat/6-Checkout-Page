@@ -1,0 +1,89 @@
+.items {
+    display: grid;
+    gap: 28px;
+    background: var(--ff-clr-gray6);
+    border-radius: 12px;
+    width: 100%;
+    padding: 3rem 2.6rem;
+    margin-top: 2rem;
+    .box {
+        display: flex;
+        line-height: 0.8;
+        // Box Right
+        &-right {
+            display: flex;
+            flex-direction: column;
+        }
+        .item {
+            &-price {
+                display: flex;
+                flex-grow: 1;
+                font-size: var(--fs-item-price);
+                margin-top: 1.7rem;
+                &-now {
+                    color: var(--ff-clr-orange);
+                    margin-right: 1.6rem;
+                }
+                &-before {
+                    text-decoration: line-through;
+                    font-size: 1.2rem;
+                    color: var(--ff-clr-gray);
+                }
+            }
+            
+            &-name {
+                color: var(--ff-clr-gray);
+                font-size: var(--fs-item-name);
+            }
+            &-increment {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: var(--fs-item-count);
+                border: solid #828282 1.5px ;
+                width: 122px;
+                height: 50px;
+                border-radius: 12px;
+                padding: 0 1rem;
+                color: var(--ff-clr-gray1);
+                i {
+                    cursor: pointer;
+                    color: var(--ff-clr-gray3);
+                }
+            }
+            // Item total
+               
+        
+        }
+        // Box Left
+        &-left {
+            img {
+                max-width: 122px;
+                border-radius: 13px;
+                margin-right: 2rem;
+            }
+        }
+    }
+    
+    .item-total {
+        display: flex;
+        flex-direction: column;
+        color: var(--ff-clr-gray1);
+        margin-top: 6rem;
+    }
+
+    .shipping {
+        border-top: 1px solid #BDBDBD;
+        border-bottom: 1px solid #BDBDBD;
+        padding: 1.3rem 0;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .shipping , .total {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+

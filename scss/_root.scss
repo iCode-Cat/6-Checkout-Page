@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+:root {
+    // Body 
+    --ff-name:'Montserrat', sans-serif;
+    --ff-weight:600;
+
+    // Header
+    --fs-header:2.4rem;
+
+    // Items
+    --fs-item-name:1.4rem;
+    --fs-item-price:1.6rem;
+    --fs-item-count:1.6rem;
+    --fs-item-checkout:1.4rem;
+    --fs-item-checkout-price:1.4rem;
+
+    // Form
+    --fs-form-section:1.rem;
+    --fs-form-label:1rem;
+    --fs-form-placeholder:1.2rem;
+
+    // Colors
+    --ff-clr-gray:#4E5150;
+    --ff-clr-gray1:#333333;
+    --ff-clr-gray2:#4F4F4F;
+    --ff-clr-gray3:#828282;
+    --ff-clr-gray5:#E0E0E0;
+    --ff-clr-gray6:#F2F2F2;
+
+
+    --ff-clr-orange:#F2994A;
+
+
+    @media(min-width:50em){
+        --fs-header:3.6rem;
+        
+        --fs-item-name:1.6rem;
+        --fs-item-price:1.6rem;
+        --fs-item-checkout:1.8rem;
+
+        --fs-form-section:1.8rem;
+        --fs-form-label:1.2rem;
+        --fs-form-placeholder:1.5rem;
+    }
+}

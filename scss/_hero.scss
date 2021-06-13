@@ -1,0 +1,115 @@
+.hero {
+    width: 100%;
+
+    .section-name {
+        margin-top: 4rem;
+        margin-bottom: 1.1rem;
+        font-size: var(--fs-form-section);
+        color:var(--ff-clr-gray1);
+    }
+
+    .label-container {
+        label {
+
+            font-size: var(--fs-form-label);
+            color: var(--ff-clr-gray2);
+        }
+        input {
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            width: 100%;
+            height: 40px;
+            padding-left: 4.2rem;
+            border-radius: 12px;
+            font-family: Montserrat;
+            border: solid 1px #828282;
+            line-height: 14px;
+            font-size: var(--fs-form-placeholder);
+        }
+        ::placeholder {
+            color: var(--ff-clr-gray3);
+            opacity: 100%;
+        }
+
+        &-divide {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+        
+    }
+
+    
+
+    .input-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        i {
+            position: absolute;
+            font-size: 2rem;
+            left: 15px;
+            color: var(--ff-clr-gray3);
+        }
+    }
+    
+    .form-save {
+        display: flex;
+        align-items: center;
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        color: var(--ff-clr-gray2);
+        // Checkbox
+        input {
+            margin-right: 0.7rem;
+        }
+    }
+
+    .submit-button {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 9.4rem;
+        justify-content: flex-end;
+        width: 100%;
+    }
+  
+}
+
+// Country List
+.country-co {
+    position: relative;
+}
+
+.country-list {
+    display: none;
+    li {
+        list-style: none;
+    }
+    li:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+    position: absolute;
+    background: #fff;
+    color: var(--ff-clr-gray2);
+    line-height: 20px;
+    bottom: -60px;
+    width: 100%;
+}
+
+@media(min-width: 50em) {
+    input {
+        height: 56px !important;
+        
+    }
+    .input-container {
+
+        margin-bottom: 2rem !important;
+    }
+    .form-save {
+        margin-top: -3rem !important;
+    }
+}

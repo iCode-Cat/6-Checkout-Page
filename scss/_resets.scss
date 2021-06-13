@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: var(--ff-weight);
+    font-family: Montserrat;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--ff-name);
+    line-height: 1;
+}
+
+body {
+    font-size: 1.6rem;
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
